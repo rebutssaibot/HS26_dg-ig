@@ -19,6 +19,8 @@ allergischen Mechanismus sowie der Austausch der Daten (z. B. Dokumente oder Sch
   erfassender Ärztin bzw. erfassendem Arzt.
 * [Penicillinallergie Anna Muster](AllergyIntolerance-PenicillinAllergieAnna.html):
   Bestätigte Penicillinallergie mit hoher Kritikalität und Urtikaria als Reaktion.
+* [Verdacht auf Benzylpenicillinallergie Hansruedi Bünzli](AllergyIntolerance-BenzylpenicillinAllergieHansruedi.html):
+  Unbestätigte Allergie ohne Reaktion, Beginn als Datum, erfasst über die Rolle der Ärztin in der Praxis.
 
 ### Abhängigkeiten
 

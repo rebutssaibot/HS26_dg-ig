@@ -32,3 +32,31 @@ Description: "Bestätigte Penicillinallergie mit Urtikaria, erfasst von Dr. Kell
 * onsetAge = 30 'a' "Jahre"
 * recorder = Reference(DrSaraKeller)
 * reaction.manifestation = $sct#126485001 "Urticaria (disorder)"
+
+Instance: HansruediBuenzli
+InstanceOf: CHCorePatient
+Usage: #example
+Title: "Hansruedi Bünzli"
+Description: "Beispielpatient nach CH Core Patient."
+* name.family = "Bünzli"
+* name.given = "Hansruedi"
+* gender = #male
+* birthDate = "1958-09-03"
+* address.line = "Schrebergartenweg 7"
+* address.city = "Uster"
+* address.postalCode = "8610"
+* address.country = "CH"
+
+Instance: BenzylpenicillinAllergieHansruedi
+InstanceOf: DgMedicationAllergy
+Usage: #example
+Title: "Verdacht auf Benzylpenicillinallergie Hansruedi Bünzli"
+Description: "Unbestätigte Benzylpenicillinallergie ohne dokumentierte Reaktion. Zeigt, dass die Invariante nur bestätigte Allergien betrifft."
+* patient = Reference(HansruediBuenzli)
+* category = #medication
+* clinicalStatus = $allergy-clinical#active
+* verificationStatus = $allergy-verification#unconfirmed
+* code = $sct#294499007 "Allergy to benzylpenicillin (finding)"
+* criticality = #unable-to-assess
+* onsetDateTime = "2019-06"
+* recorder = Reference(DrSaraKellerPraxisAmPark)
