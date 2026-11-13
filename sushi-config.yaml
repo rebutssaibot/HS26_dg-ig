@@ -12,11 +12,10 @@ canonical: https://rebutssaibot.github.io/HS26_dg-ig
 
 name: DG_IG
 
-title: "DG Lab IG"
+title: "DG Lab IG Tobias Stuber: Arzneimittelallergie"
 
-description: "Implementation Guide aus dem Lab Data Standards in Healthcare an der ZHAW."
+description: "Profil für die strukturierte Erfassung von Arzneimittelallergien in der Hausarztpraxis, damit eine Notfallstation sie zuverlässig auswerten kann."
 
-# TODO: Euer Name.
 publisher:
   name: "ZHAW Data Standards in Healthcare, Tobias Stuber"
 

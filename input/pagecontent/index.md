@@ -1,34 +1,31 @@
-<!--
-  Schritt 7: Startseite eures IG
-  Ersetzt die TODOs durch eigenen Text. Markdown ist erlaubt.
-  Diese Seite ist die erste, die man auf GitHub Pages sieht.
--->
-
 ### Use Case
 
-TODO: Beschreibt in zwei bis drei Sätzen, welche Situation euer IG abbildet.
-Wer erfasst die Daten, wer liest sie, und wofür werden sie gebraucht?
+Eine Hausarztpraxis erfasst die Arzneimittelallergien ihrer Patientinnen und Patienten
+strukturiert und mit Codes aus der Schweizer Allergieliste. Kommt eine Patientin auf eine
+Notfallstation, kann diese die Allergien zuverlässig auswerten, insbesondere wie gefährlich
+sie sind und welche Reaktionen bekannt sind.
 
 ### Scope
 
-TODO: Was deckt dieses IG ab, und was bewusst nicht?
+Dieses IG umfasst ein Profil für Allergien gegen Arzneimittel auf Basis von
+CH Core AllergyIntolerance sowie ein Beispiel. Nicht abgedeckt sind Allergien gegen
+Nahrungsmittel, Umweltstoffe oder biologische Stoffe, Unverträglichkeiten ohne
+allergischen Mechanismus sowie der Austausch der Daten (z. B. Dokumente oder Schnittstellen).
 
 ### Artefakte
 
-TODO: Ergänzt pro Artefakt einen Satz, wofür es da ist.
-
-* [DG Arzneimittelallergie](StructureDefinition-dg-medication-allergy.html): TODO
-* [Titel eures Beispiels](AllergyIntolerance-TODO_Name.html): TODO
-
-<!-- TODO_Name ist der Name hinter "Instance:" in beispiele.fsh,
-     z. B. AllergyIntolerance-PenicillinAllergieAnna.html -->
+* [DG Arzneimittelallergie](StructureDefinition-dg-medication-allergy.html): Profil für
+  Arzneimittelallergien mit Pflichtangaben zu klinischem Status, Code, Kritikalität und
+  erfassender Ärztin bzw. erfassendem Arzt.
+* [Penicillinallergie Anna Muster](AllergyIntolerance-PenicillinAllergieAnna.html):
+  Bestätigte Penicillinallergie mit hoher Kritikalität und Urtikaria als Reaktion.
 
 ### Abhängigkeiten
 
 Dieses IG baut auf [CH Core 6.0.0](https://fhir.ch/ig/ch-core/6.0.0/) auf.
 
-### Autorin oder Autor
+### Autor
 
-TODO: Euer Name.
+Tobias Stuber
 
 <p style="font-size:smaller">Erstellt im Lab des Moduls Data Standards in Healthcare, ZHAW, HS26. Kein offizieller Standard.</p>
