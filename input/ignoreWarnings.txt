@@ -4,3 +4,25 @@
 # Kopiert dazu den Text der Warnung exakt in eine eigene Zeile.
 # Schreibt über jede unterdrückte Warnung einen Kommentar mit dem Grund.
 # Errors lassen sich nicht unterdrücken, die müsst ihr beheben.
+
+# searchform.html wird vom IG Publisher bzw. dessen Template erzeugt,
+# nicht von uns. Das HTML lässt sich im eigenen IG nicht korrigieren.
+The html source is not well formed: Found "</a>" expecting "</img>" at line 34 column 177
+The html source is not well formed: Found "</div>" expecting "</body>" at line 79 column 10
+The html source is not well formed: Found "</div>" expecting "</body>" at line 80 column 9
+The html source is not well formed: Found "</div>" expecting "</body>" at line 109 column 8
+The html source is not well formed: Found "</div>" expecting "</body>" at line 111 column 12
+The html source is not well formed: Found "</div>" expecting "</body>" at line 112 column 20
+The html source is not well formed: Found "</div>" expecting "</body>" at line 113 column 16
+The html source is not well formed: Found "</div>" expecting "</body>" at line 115 column 12
+
+# Generierte Fragmente, die dieses kleine Lab-IG bewusst nicht einbindet.
+# Abhängigkeiten sind auf der Startseite als Text beschrieben.
+The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+
+# Die Version von CH Term ist von der Kursvorlage vorgegeben, damit alle
+# mit denselben Paketen bauen. Sie wird deshalb nicht angehoben.
+The ImplementationGuide uses package ch.fhir.ig.ch-term#3.3.0 released on 2025-12-15, but the most recent appropriate version is 3.4.0. This reference is getting old and the more recent version should be considered
