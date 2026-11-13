@@ -10,7 +10,7 @@ sie sind und welche Reaktionen bekannt sind.
 Dieses IG umfasst ein Profil für Allergien gegen Arzneimittel auf Basis von
 CH Core AllergyIntolerance sowie ein Beispiel. Nicht abgedeckt sind Allergien gegen
 Nahrungsmittel, Umweltstoffe oder biologische Stoffe, Unverträglichkeiten ohne
-allergischen Mechanismus sowie der Austausch der Daten (z. B. Dokumente oder Schnittstellen).
+allergischen Mechanismus sowie der Austausch der Daten (z. B. Dokumente oder Schnittstellen). Diese Sprengen den Umfang.
 
 ### Artefakte
 
